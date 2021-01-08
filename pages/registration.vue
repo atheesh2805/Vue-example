@@ -79,8 +79,8 @@
           v-model="checkBox"
           label="I agree to Terms and Conditions"
         ></v-checkbox>
-        <v-btn :loading="loading" type="submit" block color="primary" large
-          >Sign up</v-btn
+        <v-btn :loading="loading" type="submit"  color="primary" 
+          >Submit</v-btn
         >
       </v-form>
     </v-card>
